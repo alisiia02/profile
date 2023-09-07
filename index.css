@@ -1,11 +1,37 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: linear-gradient(141deg, rgb(213, 161, 98) 0%, rgb(203, 126, 19) 40%, rgb(222, 207, 150) 90%);
-  }
-  
+header {
+    width: 100%;
+    background:#6d5f52; 
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    width: 25%;
+    height: 100%;
+    background: rgba(180, 188, 228, 0.986);
+    top:0;
+    left: 0;
+    padding: 20 px 30px;
+}   
+
+main > section {
+    display: flex;
+    flex-direction: column;
+}
+#logo {
+   width: 50px;
+}
+
+.logo-img {
+    width: 150px;
+}
+
   li {
     float: left;
   }
@@ -31,7 +57,7 @@ ul {
     color: #6d5f52;
   }
   
-  section {
+  section.intro {
     padding: 5%;
     gap: 5%;
     display: grid;
