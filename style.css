@@ -1,7 +1,15 @@
 .body {
-    background-color: #f5e6d3;
-    color: #6d5f52;
+  background-color: #f5e6d3;
+  color: #6d5f52;
 }
+
+.top {
+	position: relative;
+	height: 10px;
+	background: linear-gradient(141deg, rgb(213, 161, 98) 0%, rgb(203, 126, 19) 40%, rgb(222, 207, 150) 90%);
+}
+
+
 .container {
   width: 100%;
   max-width: 1200px;
