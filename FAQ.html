@@ -3,9 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="with-device-width, initial-scale=1">
-    <title>Alisiia's profile</title>
+    <title>FAQ</title>
     <link href="FAQ.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/ 
+    font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBOVD591QIYicR65iaqukzvf/nwasFenqhPaySw/913mVM2hMDcnK10nMGCdVK+iQrJ71zPJQd1w=="
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"
+   />
+
   </head> 
   </body>
     <header>
@@ -19,23 +27,37 @@
     <div class="wrapper">
         <p>FAQ</p>  
         <h1>Questions</h1>
+        
         <div class="faq">
-          <details>
-          <summary class="accordion">
-            
-            How can you print a document from your laptop at HZ?
-            <i class="fa-solid fa-chevron-down"></i>
-          </summary>
-            <div class="panel">
+          <button  class="accordion">
+           <a href="https://hz.nl/">  can you print a document from your laptop at HZ? </a>
+            <i class="fa-solid fa-print"></i>
+          </button>
+          <div class="panel">
               <p>
-                mEOOOOOOOOOOOOOOOOOOOOOOOOOOW
-              </p>
-            </div>
-          </details>
+                <a href="" mEOOOOOOOOOOOOOOOOOOOOOOOOOOW </a>
+              .</p>
+          </div>
         </div>
     </div>
 
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      for (i = 0; i <acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.parentELement.classList.toggle("active");
 
+          var panel = this.nextElenentSibling;
+          if(panel.style.display === "block") {
+            panel.style.display = "none";
+        }else{
+          panel.style.display = "block";
+        }
+        });
+
+      }
     </script>
    
      <h2>Links</h2>
