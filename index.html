@@ -11,14 +11,28 @@
     </body>
         
         <header>
-            <nav>
+            <nav class="top-bar">
+                <button class="openbtn" onclick="openNav()">☰ </button>
                 <a class="active" id="home" href="./index.html#home">Home</a>
                 <a id="FAQ" href="./FAQ.html#FAQ">FAQ</a>
                 <a id="profile" href="./profile.html#profile">Profile</a>
-                <a href="#about me">About</a>
+                <a id="Blog" href="./blog.html#blog">Blog</a>
                 <a id="Dachboard" href="./dashboard.html#dashboard">Dachboard</a>
             </nav>
         </header>
+
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+          
+        <div id="main"> 
+            <h2></h2>
+            <p></p>
+          
 
 
         <div class="slideshow-container">
@@ -49,6 +63,20 @@
         <span class="dot"></span> 
         <span class="dot"></span> 
         </div>
+        </div>
+
+          <script>
+          function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+          }
+          </script>
+             
 
         <script>
         let slideIndex = 0;
@@ -72,20 +100,6 @@
         }
         </script>
         <main>
-            <div class="header">
-                <div class="side-nav"> 
-                <a href="#" class="logo">
-                <img id="logo" src="./images/hz-university-of-applied-sciences-seeklogo.com.svg">
-                </a>
-                <ul class="nav-links">
-                    <li><a href="#"><p>introduction</p></a></li>
-                    <li><a href="#"><p>More information</p></a></li>
-                    <li><a href="#"><p>Photo</p></a></li>
-                    <div class="active"></div>
-                </ul>
-            </aside>
-            </div>
-        </div>
         <!-- <div class="container">
             <div class="wrapper">
                 <img src="images/hz2.jpg">

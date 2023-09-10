@@ -1,0 +1,67 @@
+body, h2, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    margin: 0;
+}
+
+
+/* Apply styles to elements */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: var(--text-color);
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main.feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+article.post {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+article h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+article .date {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+article .excerpt {
+    margin-bottom: 20px;
+}
+
+article a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:blue;
+    color: white;
+}
+
+

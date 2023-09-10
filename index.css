@@ -3,7 +3,10 @@ body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
-/* Slideshow container */
+header {
+    padding: 20px;
+}
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -21,7 +24,6 @@ img {vertical-align: middle;}
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -30,7 +32,6 @@ img {vertical-align: middle;}
   top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   height: 15px;
   width: 15px;
@@ -45,7 +46,7 @@ img {vertical-align: middle;}
   background-color: #717171;
 }
 
-/* Fading animation */
+
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -56,14 +57,11 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
+
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-header {
-    width: 100%;
-    background:#dadaa8; 
-}
+
 body {
     color:rgb(226, 248, 248);
 }
@@ -72,43 +70,13 @@ main {
     flex-direction: row;
     flex: 1 1 auto;
 }
-aside {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 auto;
-    width: 25%;
-    height: 100%;
-    background: rgba(180, 188, 228, 0.986);
-    top:0;
-    left: 0;
-    padding: 20 px 30px;
-}   
+
 
 main > section {
     display: flex;
     flex-direction: column;
 }
-#logo {
-   width: 50px;
-}
 
-.logo-img {
-    width: 150px;
-}
-.nav-links {
-    list-style: none;
-    position: relative
-}
-.nav-links li {
-    padding: 10px 0;
-}
-.nav-links li a {
-    color:#fff;
-    text-decoration: none;
-    padding: 10px 14px;
-    display:flex;
-    align-items: center;
-}
 .active{
     background: #fff;  
     width: 100%; 
@@ -121,37 +89,7 @@ main > section {
     box-shadow: 0 5px 10px rgba(255, 255, 255, 0.4);
     display: none;
     }
-    
-    .nav-links li:hover a{ 
-        color: #0d74f5; 
-        transition: 0.3s;
-    
-    } 
-     .nav-links li:hover ~ .active {
-        display: block;
-     }
-    
 
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  li a:hover {
-    color: black ;
-    background-color: rgba(109, 69, 50, 0.444) ;
-    text-decoration: underline;
-  }
-  
   .body {
     background-color: #f5e6d3;
     color: #6d5f52;
@@ -167,7 +105,7 @@ main > section {
   #hz-university {
     width: 100%;
     height: auto;
- 
+  }
   .name {
     padding: 0 20px 20px 0;
     font-size: 70px;
@@ -180,10 +118,12 @@ main > section {
   text-align: center;
   color:rgb(226, 248, 248);
   }
-  .addition
-  
+ 
+
+
   .text {
-     align="bottom"
+     align ="bottom";
+  }
      
   
   h2 {
