@@ -13,7 +13,6 @@ header {
 body {
   display: flex;
   flex-direction: column;
-  
 }
 .top-bar {
   border-radius: 200px; 
@@ -21,7 +20,6 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: linear-gradient(141deg, rgb(213, 161, 98) 0%, rgb(203, 126, 19) 40%, rgb(222, 207, 150) 90%);
   position: sticky;
   top: 0px;
 }
