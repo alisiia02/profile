@@ -4,13 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="with-device-width, initial-scale=1">
         <title>Alisiia's profile</title>
-        <link href="dachboard.css" rel="stylesheet">
+        <link href="dashboard.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
     </head> 
 
   <body>
     <header>
         <nav class="top-bar">
+            <button class="openbtn" onclick="openNav()">☰ </button>
             <a class="active" id="home" href="./index.html#home">Home</a>
             <a id="FAQ" href="./FAQ.html#FAQ">FAQ</a>
             <a id="profile" href="./profile.html#profile">Profile</a>
@@ -19,14 +20,144 @@
         </nav>
     </header>
 
-
-    <div class="wrapper">
-        <div class="one">One</div>
-        <div class="two">Two</div>
-        <div class="three">Three</div>
-        <div class="four">Four</div>
-        <div class="five">Five</div>
-        <div class="six">Six</div>
+    
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
       </div>
+
+
+    <main class="editmain">
+      <h1>Dashboard</h1>
+      <table class="dashboard blue noisy">
+        <thead>
+          <tr>
+            <th>Quarter</th>
+            <th>Course</th>
+            <th>Exam</th>
+            <th>Credits</th>
+            <th>Grades</th>
+            <th>Credits Earned</th>
+          </tr>
+        </thead>
+        <tr>
+            <td rowspan="2">1-4</td>
+            <td rowspan="2">Personal Professional Development: Exploration</td>
+            <td>English Test</td>
+            <td rowspan="2">12.5</td>
+            <td>-</td>
+            <td rowspan="2">0</td>
+          </tr>
+          <tr>
+            <td>Criterium focused interview</td>
+        <tr>
+          <td rowspan="5">1</td>
+          <td>Programming Basics</td>
+          <td>Assessment website (Individual process assessment)</td>
+          <td>5</td>
+          <td>-</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Computer Science Basics</td>
+          <td>Written knowledge test</td>
+          <td>5</td>
+          <td>-</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Program & Career Orientation</td>
+          <td>Case study exam</td>
+          <td>2.5</td>
+          <td>-</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>IT Personality Project Week 1</td>
+          <td>Portfolio</td>
+          <td>1.25</td>
+          <td>-</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>IT Personality 1</td>
+          <td>Portfolio</td>
+          <td>1.25</td>
+          <td>-</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td rowspan="2">2</td>
+          <td rowspan="2">Object-Oriented programming</td>
+          <td>Presentation</td>
+          <td rowspan="2">10</td>
+          <td>-</td>
+          <td rowspan="2">0</td>
+        </tr>
+        <tr>
+          <td>Case study exam</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td rowspan="4">3</th>
+          <td>Framework Development 1</th>
+          <td>Case study exam</th>
+          <td>5</th>
+          <td>-</th>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Framework Project 1</td>
+          <td>Criterium based interview</td>
+          <td rowspan="3">7.5</td>
+          <td>-</td>
+          <td rowspan="3">0</td>
+        </tr>
+        <tr>
+          <td>Assignment</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Case study exam</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td rowspan="3">4</td>
+          <td rowspan="3">Framework Project 2</td>
+          <td>Final delivery</td>
+          <td rowspan="3">10</td>
+          <td>-</td>
+          <td rowspan="3">0</td>
+        </tr>
+        <tr>
+          <td>Report of acceptance tests and optional assessments</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>IT Development portfolio</td>
+          <td>-</td>
+        </tr>
+
+        </tr>
+      </table>
+
+    </main>
+
+
+      <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+     </script>
+
     </body>
 </html>

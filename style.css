@@ -3,11 +3,17 @@
   margin: 0;
   padding: 0;
   font-family: 'Cormorant', serif;
+  
+}
+
+header {
+  padding: 20px;
 }
 
 body {
   display: flex;
   flex-direction: column;
+  
 }
 .top-bar {
   border-radius: 200px; 
@@ -100,3 +106,4 @@ a:hover {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+
