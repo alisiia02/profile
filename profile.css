@@ -1,9 +1,16 @@
 header {
     padding: 20px;
 }
+.top-bar {
+  background: linear-gradient(141deg, #FF9505 0%, #CC5803 40%, #FF9505 90%);
+}
+body {
+  background-color: #CC5803;
+  color: white;
+}
 .round {
     border-radius: 200px; 
-    box-shadow: 0 0 0 3px rgb(144, 88, 28), 0 0 13px #333; 
+    box-shadow: 0 0 0 3px #FF9505, 0 0 13px #333; 
     max-width: 25%;
     max-height: 25%;
     float: right;
@@ -34,16 +41,16 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3px;
-    background: crimson;
+    background: #E2711D;
   }
   
   :where(.left, .center, .right) {
-    background: navajowhite;
+    background: #FF9505;
     transition: 300ms;
   }
   
   :where(.left, .center, .right):hover {
-    background: crimson;
+    background: #E2711D;
   }
   
   #grid:has(.left:hover) {
