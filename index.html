@@ -8,121 +8,46 @@
         <link href="style.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
     </head> 
-    </body>
-        
-        <header>
+    <body>
+     <section class="header">
             <nav class="top-bar">
-                <button class="openbtn" onclick="openNav()">☰ </button>
-                <a class="active" id="home" href="./index.html#home">Home</a>
-                <a id="FAQ" href="./FAQ.html#FAQ">FAQ</a>
-                <a id="profile" href="./profile.html#profile">Profile</a>
-                <a id="Blog" href="./blog.html#blog">Blog</a>
-                <a id="Dachboard" href="./dashboard.html#dashboard">Dachboard</a>
-            </nav>
-        </header>
-
-        <div id="mySidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
-          </div>
-          
-        <div id="main"> 
-            <h2></h2>
-            <p></p>
-          
-
-
-        <div class="slideshow-container">
-
-        <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src="images/hz2.jpg" style="width:100%">
-        <div class="text">What is HBO-ICT?</div>
-        </div>
-
-        <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img src="images/HEVO_header_HZ_Groene_Woud_Middelburg-fd524feb.jpg" style="width:100%">
-        <div class="text">why ICT field suits me?</div>
-        </div>
-
-        <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img src="images/gebouw-hal-2.jpg" style="width:100%">
-        <div class="text">meow</div>
-        </div>
-        </div>
-        <br>
-
-        <div style="text-align:center">
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        </div>
-        </div>
-        <div class="wrapper">
-            <div class="one">One</div>
-            <div class="two">Two</div>
-            <div class="three">Three</div>
-            <div class="four">Four</div>
-            <div class="five">Five</div>
-            <div class="six">Six</div>
-          </div>
-
-          <script>
-          function openNav() {
-            document.getElementById("mySidebar").style.width = "250px";
-            document.getElementById("main").style.marginLeft = "250px";
-          }
-          
-          function closeNav() {
-            document.getElementById("mySidebar").style.width = "0";
-            document.getElementById("main").style.marginLeft= "0";
-          }
-          </script>
-             
-
-        <script>
-        let slideIndex = 0;
-        showSlides();
-
-        function showSlides() {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}    
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 2000); 
-        }
-        </script>
-        <main>
-        <!-- <div class="container">
-            <div class="wrapper">
-                <img src="images/hz2.jpg">
-                <img src="images/HEVO_header_HZ_Groene_Woud_Middelburg-fd524feb.jpg">
-                <img src="images/gebouw-hal-2.jpg">
-                <img src="images/hz.jpg">
-            </div>
-        </div>-->
+              <div>
+                    <button class="openbtn" onclick="openNav()">☰ </button>
+                    <a class="active" id="home" href="./index.html#home">Home</a>
+                    <a id="FAQ" href="./FAQ.html#FAQ">FAQ</a>
+                    <a id="profile" href="./profile.html#profile">Profile</a>
+                    <a id="Blog" href="./blog.html#blog">Blog</a>
+                    <a id="Dachboard" href="./dashboard.html#dashboard">Dachboard</a>
+                </div>
+           
             
-            <section>
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                </div>
+           </nav>
+                
+            <div class="text-box">
+                <h1>Why I've chosen the HBO-ICT program?</h1>
+                <p>Greetings, fellow tech enthusiasts! I'm Alisiia, and I'm excited to take you on a virtual tour of my academic adventure in the Information and Communication Technology (ICT) program at HZ University of Applied Sciences. Here, I'm a student and I'm currently crafting my very own websiteThis is my first project in university</p>
+                <a href="">visit</a>
+            </div>
+        
+     </section>
+
+        <section class="information">
                 <h1>YEEEEEEEEEEEE</h1>
                 <p>YEEEEEEEEEEEE</p>
                 <section class="intro">
                     <div>
                         <h1>Welcome!</h1>
-                        <p>Greetings, fellow tech enthusiasts! I'm Alisiia, and I'm excited to take you on a virtual tour of my academic adventure in the Information and Communication Technology (ICT) program at HZ University of Applied Sciences. Here, I'm a student and I'm currently crafting my very own websiteThis is my first project in university!</p>
+                        <p>After attending the open day, a lot opened up for me 🙂
+                            <br>
+                            The HZ ICT program stands out to me due to its comprehensive curriculum, esteemed faculty, and innovative research opportunities. The emphasis on both theoretical knowledge and practical application aligns perfectly with my aspirations. This is what I understood after reading the information on the website, as well as visiting the HZ twice, seeing what students can do, as well as being a student and attending a class.
+                            Furthermore, I am excited about the prospect of being part of HZ's vibrant ICT community. The collaborative environment, diversity in students and access to cutting-edge resources present an ideal platform for my growth as a technologist and a global citizen.</p>
                     </div>
                     <div>
                         <a href="https://hz.nl/" target="_blank">   HZ university</a>
@@ -130,6 +55,16 @@
                         <img id="hz-university" src="./images/hzimage.jpg"/>
                     </div>
                 </section>
+
+                <div class="wrapper">
+                    <div class="one">One</div>
+                    <div class="two">Two</div>
+                    <div class="three">Three</div>
+                    <div class="four">Four</div>
+                    <div class="five">Five</div>
+                    <div class="six">Six</div>
+                  </div>
+        
 
             </section>
         </main>

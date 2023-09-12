@@ -38,11 +38,11 @@ a {
 
 a:hover {
   color: black ;
-  background-color: rgba(109, 69, 50, 0.444) ;
+  background-color: rgba(51, 40, 34, 0.444) ;
   text-decoration: underline;
 }
 :target {
-  background: blueviolet;
+  background: #05445E;
 }
 
 /*vertical-asidebar*/

@@ -17,16 +17,25 @@
   </head> 
   </body>
     <header>
-      <nav class="top-bar">
-          <a class="active" id="home" href="./index.html#home">Home</a>
-          <a id="FAQ" href="./FAQ.html#FAQ">FAQ</a>
-          <a id="profile" href="./profile.html#profile">Profile</a>
-          <a id="Blog" href="./blog.html#blog">Blog</a>
-          <a id="Dachboard" href="./dashboard.html#dashboard">Dachboard</a>
-      </nav>
+      <header>
+        <nav class="top-bar">
+            <button class="openbtn" onclick="openNav()">☰ </button>
+            <a class="active" id="home" href="./index.html#home">Home</a>
+            <a id="FAQ" href="./FAQ.html#FAQ">FAQ</a>
+            <a id="profile" href="./profile.html#profile">Profile</a>
+            <a id="Blog" href="./blog.html#blog">Blog</a>
+            <a id="Dachboard" href="./dashboard.html#dashboard">Dachboard</a>
+        </nav>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
     </header>
 
-
+    <section>
     <div class="wrapper">
         <p>FAQ</p>  
         <h1>Questions</h1>
@@ -38,11 +47,12 @@
           </button>
           <div class="panel">
               <p>
-                <a href="" mEOOOOOOOOOOOOOOOOOOOOOOOOOOW </a>
+                <a href="" >mEOOOOOOOOOOOOOOOOOOOOOOOOOOW </a>
               .</p>
           </div>
         </div>
     </div>
+  </section>
 
     <script>
       var acc = document.getElementsByClassName("accordion");
