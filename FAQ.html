@@ -53,25 +53,6 @@
         </div>
     </div>
   </section>
-
-    <script>
-      var acc = document.getElementsByClassName("accordion");
-      var i;
-      for (i = 0; i <acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          this.parentELement.classList.toggle("active");
-
-          var panel = this.nextElenentSibling;
-          if(panel.style.display === "block") {
-            panel.style.display = "none";
-        }else{
-          panel.style.display = "block";
-        }
-        });
-
-      }
-    </script>
    
      <h2>Links</h2>
      <p class="cta">Follow links to find more information<a href="./profile.html" arget="_blank">Go to my Profile</a></p>
