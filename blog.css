@@ -1,3 +1,7 @@
+* {
+    font-family: 'Cormorant', serif;
+}
+
 body, h2, ul, li, a {
     margin: 0;
     padding: 0;
@@ -5,7 +9,7 @@ body, h2, ul, li, a {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #513252;
+    background-color: #321f32;
     color: white;
     display: flex;
     margin: 0;
