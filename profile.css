@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-hr {
+.split {
   border: 5px solid #F8961E;
   border-radius: 3px;
   width: 300px;
@@ -107,7 +107,7 @@ section {
     grid-template-columns: 0.5fr 0.5fr 2fr;
   }
   /*grrrrrrrrrrrrrrrrid*/
-  
+ 
   ul {
     font-family: 'Freehand', cursive;
     list-style-position: inside;
@@ -121,8 +121,11 @@ section {
     border-color: #F8961E;
     box-shadow: 0.25rem 0.25rem 0.75rem rgb(0 0 0 / 0.15);
     padding: 0;
-    
-
+  }
+  .line {
+    border: 1px solid #577590;
+    width: 596px;
+    margin: 0 auto;
   }
   
   li {

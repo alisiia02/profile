@@ -30,7 +30,7 @@ body {
 
 
 
-a {
+#home, #FAQ, #profile, #blog, #dashboard {
   float: right;
   display: inline;
   color: white;
@@ -39,6 +39,7 @@ a {
   text-decoration: none;
   background-color: transparent;
   text-decoration: underline;
+  
 }
 
 a:hover, :target {

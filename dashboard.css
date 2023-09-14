@@ -11,7 +11,12 @@ h1, p {
 p {
   text-align: center;
 }
-
+hr {
+  border: 5px solid #9067C6;
+  border-radius: 3px;
+  width: 300px;
+  margin: 0 auto;
+}
 
 .dashboard {
    
