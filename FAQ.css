@@ -59,36 +59,12 @@ summary {
 
 footer {
     background-color: #31572C;
-    text-align: center;
-    padding: 20px 0;
-   height: 300px;
-}
-
-/* Style the navigation menu */
-nav ul {
-    list-style-type: none;
-    padding: 20px;
-}
-
-nav ul li {
-    display: inline;
-   
 }
 
 
 /* Style the navigation links */
 nav ul li a {
-    margin: 0 auto;
-    text-align: center;
-    font-size: 15px;
-    text-decoration: underline;
     color: #ECF39E;
-    display: grid;
-    
-    gap: 20px 50px;
-  }
-
-
-nav ul li a:hover {
-    text-decoration: underline;
 }
+
+

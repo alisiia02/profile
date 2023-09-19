@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: white;
+}
+
+h1 {
+   
+    text-align: center;
+    padding: 1rem;
+}
+.split {
+    border: 5px solid #CA4E79;
+    border-radius: 3px;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0 auto;
+}
+.box {
+    border-radius: 20px; 
+}
+.box, .box2 {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 1.5rem;
+}
