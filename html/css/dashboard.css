@@ -69,6 +69,18 @@ nav ul li a {
   box-shadow: 0 0 0 3px #9067C6, 0 0 13px #333;
 }
 
+/* color animation */
+.mask .fill {
+  clip: rect(0, 75px, 150px, 0);
+  background-color: #242038;
+}
+
+.mask .full,
+.circle .fill {
+  animation: fill ease-in-out 3s;
+  transform: rotate(135deg);
+}
+
 .circle-wrap .circle .mask,
 .circle-wrap .circle .fill {
   width: 150px;
@@ -95,20 +107,6 @@ nav ul li a {
   z-index: 100;
   font-weight: 700;
   font-size: 2em;
-}
-
-/* color animation */
-
-/* 3rd progress bar */
-.mask .fill {
-  clip: rect(0, 75px, 150px, 0);
-  background-color: #242038;
-}
-
-.mask .full,
-.circle .fill {
-  animation: fill ease-in-out 3s;
-  transform: rotate(135deg);
 }
 
 @keyframes fill {
