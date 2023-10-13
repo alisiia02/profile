@@ -8,6 +8,7 @@
     <title>Home</title>
     <link href="./css/index.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
+    <link href="/html/script.js" rel="script">
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 </head>
 
@@ -19,14 +20,16 @@
         <a href="./profile.html#profile">Profile</a>
         <a href="./blog.html#blog">Blog</a>
         <a href="./dashboard.html#dashboard">Dashboard</a>
-        <div id="mySidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
-        </div>
     </nav>
+    <div id="side-bar" class="sidebar">
+        <img id="logo" src="./" />
+        <a href="javascript:void(0)" class="close" onclick="closeNav()">×</a>
+        <a href="">Instagram</a>
+        <a href="#">github</a>
+        <a href="#">meow</a>
+        <a href="#">aaaa</a>
+    </div>
+
     <section class="header">
         <div class="text-box">
             <h1>Welcome!</h1>
@@ -138,7 +141,20 @@
             <br>
             <br>
             <br>
+            <script>
+                function openNav() {
+                    document.getElementById("side-bar").style.width = "250px";
+                    document.getElementById("main").style.marginLeft = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("side-bar").style.width = "0";
+                    document.getElementById("main").style.marginLeft = "0";
+                }
+            </script>
+
     </div>
+
     <footer>
         <div>
             <nav>
@@ -161,5 +177,6 @@
         </div>
     </footer>
 </body>
+
 
 </html>

@@ -21,7 +21,6 @@ footer {
   width: 900px;
   margin: 0 auto;
 }
-    
 
 .top-bar {
   border-radius: 200px; 
@@ -47,31 +46,15 @@ nav > a {
   padding: 14px 16px;
   text-decoration: none;
   background-color: transparent;
-  text-decoration: underline;
-  
 }
 
-a:hover, :target {
-  color: black ;
-  background-color: rgba(51, 40, 34, 0.668) ;
+nav ul li a {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;
   text-decoration: underline;
-}
-:target {
-  background: #00000065;
-}
-
-/*vertical-asidebar*/
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+  display: grid;
+  gap: 20px 50px;
 }
 
 .sidebar a {
@@ -83,11 +66,39 @@ a:hover, :target {
   transition: 0.3s;
 }
 
+
+a:hover, :target {
+  color: black ;
+  background-color: rgba(51 40 34 0.668) ;
+  text-decoration: underline;
+}
+
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+:target {
+  background: #00000065;
+}
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 15;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 200px;
+} 
+
 .sidebar a:hover {
   color: #f1f1f1;
 }
 
-.sidebar .closebtn {
+.sidebar .close {
   position: absolute;
   top: 0;
   right: 25px;
@@ -106,7 +117,7 @@ a:hover, :target {
 }
 
 .openbtn:hover {
-  background-color: #444;
+  background-color: #16131362;
 }
 
 #main {
@@ -114,26 +125,6 @@ a:hover, :target {
   padding: 16px;
 }
 
-
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
-}
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .top-bar ,.dashboard, h1, h2, p{
-    width: 80%;
-    padding: 0;
-  }
- 
-}
-
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-   .dashboard, .circle-wrap .center {
-    width: 100%;
-  }
-}
 
 /* Style the navigation menu */
 nav ul {
@@ -147,18 +138,10 @@ nav ul li {
 }
 
 
-/* Style the navigation links */
-nav ul li a {
-  margin: 0 auto;
-  text-align: center;
-  font-size: 15px;
-  text-decoration: underline;
-  display: grid;
-  gap: 20px 50px;
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
 }
 
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
 
