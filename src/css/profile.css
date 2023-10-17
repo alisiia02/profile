@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.introduction {
+  font-size: 40px;
+}
+
 .split {
   border: 5px solid #F8961E;
   border-radius: 3px;
@@ -33,6 +37,10 @@ header {
 
 .top-bar {
   background: linear-gradient(141deg, #F9C74F 0%, #577590 40%, #F8961E 90%);
+}
+
+.sidebar {
+  background-color: #05445E;
 }
 
 body {
