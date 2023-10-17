@@ -20,15 +20,15 @@ body {
     color: white;
     display: flex;
     margin: 0;
-    
 }
 
 .top-bar {
     background: linear-gradient(141deg, #CA4E79 0%, #513252 40%, #7A4069 90%);
+}
 
-  }
-
-
+.sidebar {
+    background-color: #513252;
+}
 
 header {
     text-align: center;

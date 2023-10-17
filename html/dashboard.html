@@ -8,6 +8,7 @@
     <title>Deshboard</title>
     <link href="./css/dashboard.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
+    <script src="../html/script.js"></script>
 </head>
 
 <body>
@@ -18,14 +19,16 @@
         <a href="./profile.html#profile">Profile</a>
         <a href="./blog.html#blog">Blog</a>
         <a id="dashboard" href="./dashboard.html#dashboard">Dashboard</a>
-        <div id="mySidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
-        </div>
     </nav>
+    <div id="side-bar" class="sidebar">
+        <img id="logo"
+            src="./images/favpng_hz-university-of-applied-sciences-hanze-university-of-applied-sciences-hu-university-of-applied-sciences-utrecht-student.png" />
+        <a href="javascript:void(0)" class="close" onclick="closeNav()">×</a>
+        <a href="">Github</a>
+        <a href="#">Instagram</a>
+        <a href="#">WhatsApp</a>
+        <a href="#">Teams</a>
+    </div>
     <main class="editmain">
         <br>
         <br>
@@ -169,6 +172,18 @@
     <br>
     <br>
     <br>
+    <script>
+        function openNav() {
+            document.getElementById("side-bar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("side-bar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
     <footer>
         <div>
             <nav>

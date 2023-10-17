@@ -13,6 +13,10 @@ p {
   background: linear-gradient(141deg, #8D86C9 0%, #242038 40%, #9067C6 90%);
 }
 
+.sidebar {
+  background-color: #242038 ;
+}
+
 p {
   text-align: center;
 }
